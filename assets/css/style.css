@@ -2,6 +2,9 @@
         background-color: rgb(151, 5, 5);
         padding: 10px;
         margin: 0%;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
         
     }
 
@@ -18,6 +21,13 @@
 
     a{
         text-decoration: none;
+
+    }
+
+    .imagens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     p {
@@ -31,6 +41,14 @@
 
     }
 
+    .margemForm{
+        margin-right: 300px;
+    }
+
+    form{
+        
+    }
+
     h2{
         color:rgb(151, 5, 5);
         font-size: 45px;
@@ -39,13 +57,21 @@
     }
 
     img {
+        display: flex;
         max-width: 100%;
-        max-height: 100%;
+        max-height: auto;
        }
        .imagemsp {
-        height: 800px;
-        width: 1333px;
+        display: flex;
+        width: 100%;
+        height: auto;
        }
+
+    iframe{
+        display: flex;
+        max-width: 100%;
+        max-height: auto;
+    }
 
     .rodape{
         background-color: rgb(151, 5, 5);
@@ -69,6 +95,28 @@
         font-size: 40px;
         text-align: center;
         margin-top: 5%;
+    }
+
+    .container{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons{
+        margin-right: 80px;
+    }
+
+    .imgRedes{
+        display: flex;
+        margin-bottom: 150px;
+        padding-left: 65px;
+    }
+    
+
+    .redes{
+        margin-bottom: 82px;
     }
 
 
